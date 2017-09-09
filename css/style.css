@@ -33,9 +33,45 @@
     display: inline-block;
     background-color: yellow;
 }
-txt-user {
-    margin-top: 100px;
+.txt-user {
+    margin-top: 20px;
+    
+    width: 200px;
+    height:35px;
+    margin-left: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    
 }
-txt-pass {
+.txt-pass {
+    margin-top: 20px;
+    width: 200px;
+    height:35px;
+    margin-left: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+.h-tile{
+    font-size: 24px;
+    width:200px;
+    height:24px;
+    display: block;
+    margin-top: 60px;
+    
+}
+.CB-savepass{
+    margin-left: 50px;
+    margin-top: 4px;
+    float: left;
 
+}
+label{
+    padding-top: 0px;
+    font-size: 12px;
+}
+.group-checkbox{
+    display: inline-block;
+    margin-top: 5px;
 }
