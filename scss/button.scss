@@ -15,6 +15,11 @@
     font-size: 1em;
     font-weight: bolder;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.6s;
+    display: block;
+    outline: none;
     
   
 }
@@ -31,6 +36,22 @@
     border-bottom: 4px solid #D4D2D2;
     animation: loader 2s infinite linear;
     transition: 0.6s;
+    outline: none;
+}
+.success {
+    width: 210px;
+    height:40px;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 0px;
+    background-color: #2CFF37;
+    border:none;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: 0.6s;
+    outline: none;
 }
 @keyframes loader {
     0% {
