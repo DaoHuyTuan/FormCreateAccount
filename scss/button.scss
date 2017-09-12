@@ -5,16 +5,17 @@
 }
 .Btn-login {
     width: 210px;
-    height:40px;
+    height:45px;
     margin-left: 50px;
     padding-left: 10px;
     padding-right: 0px;
-    background-color: #2CFF37;
-    border:none;
+    background-color: transparent;
+    border:2px solid white;
     color: white;
-    font-size: 1em;
+    font-size:18px;
     font-weight: bolder;
     border-radius: 10px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     transition: 0.6s;
@@ -52,6 +53,10 @@
     border-radius: 10px;
     transition: 0.6s;
     outline: none;
+}
+
+.ion-checkmark-round{
+    font-size: 25px;
 }
 @keyframes loader {
     0% {

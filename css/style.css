@@ -5,16 +5,17 @@
 
 .Btn-login {
   width: 210px;
-  height: 40px;
+  height: 45px;
   margin-left: 50px;
   padding-left: 10px;
   padding-right: 0px;
-  background-color: #2CFF37;
-  border: none;
+  background-color: transparent;
+  border: 2px solid white;
   color: white;
-  font-size: 1em;
+  font-size: 18px;
   font-weight: bolder;
   border-radius: 10px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
   transition: 0.6s;
@@ -51,18 +52,18 @@
   transition: 0.6s;
   outline: none; }
 
+.ion-checkmark-round {
+  font-size: 25px; }
+
 @keyframes loader {
   0% {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
 body {
-  background: #348F50;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #56B4D3, #348F50);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #56B4D3, #348F50);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .main {
   width: 400px;
@@ -78,14 +79,12 @@ body {
 .login {
   width: 100%;
   height: 100%;
-  display: block;
-  background-color: blue; }
+  display: block; }
 
 .createAccount {
   width: 100%;
   height: 100%;
-  display: none;
-  background-color: red; }
+  display: none; }
 
 .group {
   width: 300px;
@@ -94,39 +93,54 @@ body {
   margin-left: 50px;
   position: relative;
   display: inline-block;
-  background-color: yellow; }
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20%; }
+
+.group:hover {
+  transition: 0.8s;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
 
 .group-input {
   position: relative; }
 
+input::placeholder {
+  color: #CCCCCC; }
+
 .txt-user {
   margin-top: 20px;
+  border-radius: 6px;
   width: 200px;
-  height: 35px;
+  height: 40px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
   display: block;
   outline: none;
-  border: none; }
+  border: none;
+  font-size: 18px;
+  color: #6BD18A; }
 
 .txt-pass {
   margin-top: 20px;
+  border-radius: 6px;
   width: 200px;
-  height: 35px;
+  height: 40px;
   padding-left: 10px;
   outline: none;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border: none; }
+  border: none;
+  font-size: 18px;
+  color: #6BD18A; }
 
 .h-tile {
   font-size: 24px;
   width: 200px;
   height: 24px;
   display: block;
-  margin-top: 60px; }
+  margin-top: 40px;
+  color: white; }
 
 .CB-savepass {
   margin-left: 50px;
