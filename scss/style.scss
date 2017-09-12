@@ -1,0 +1,78 @@
+@import 'button.scss';
+.main {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+.form{
+    width: 100%;
+    height: 100%;
+    
+}
+.login {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: blue;
+   
+}
+.createAccount{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: red;
+}
+.group{
+    width: 300px;
+    height:300px;
+    margin-top: 50px;
+    margin-left: 50px;;
+    
+    display: inline-block;
+    background-color: yellow;
+}
+.txt-user {
+    margin-top: 20px;
+    
+    width: 200px;
+    height:35px;
+    margin-left: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    
+}
+.txt-pass {
+    margin-top: 20px;
+    width: 200px;
+    height:35px;
+    margin-left: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+.h-tile{
+    font-size: 24px;
+    width:200px;
+    height:24px;
+    display: block;
+    margin-top: 60px;
+    
+}
+.CB-savepass{
+    margin-left: 50px;
+    margin-top: 4px;
+    float: left;
+
+}
+label{
+    padding-top: 0px;
+    font-size: 12px;
+}
+.group-checkbox{
+    display: inline-block;
+    margin-top: 5px;
+}
