@@ -60,8 +60,17 @@
 
 .ion-checkmark-round {
   margin-left: -10px;
+  color: white;
   display: block;
   font-size: 40px; }
+
+.ion-checkmark {
+  color: white;
+  display: block;
+  font-size: 20px;
+  margin-left: 4px;
+  margin-right: auto;
+  margin-top: 2px; }
 
 @keyframes loader {
   0% {

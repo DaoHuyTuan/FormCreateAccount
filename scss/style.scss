@@ -97,22 +97,59 @@ input::placeholder {
     color: white;
     
 }
-.CB-savepass{
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4px;
-    float: left;
-
-}
 label{
     padding-top: 0px;
     font-size: 12px;
 }
 .group-checkbox{
-    width: 400px;
+    width: 300px;
     height:50px;
-    
+    margin-left:auto;
+    margin-right: auto; 
     display: block;
-    margin-top: 5px;
+    margin-top: 10px;
+    .checkbox {
+        width:25px;
+        height:25px;
+        background-color: white;
+        float: left;
+        border: 3px solid #969292;
+    }
+    .checked {
+        background-color:#0084ff; 
+        border: 3px solid #0084ff;
+    }
+   
+    .text-checkbox {
+        margin-left: 10px;
+        float: left;
+        margin-top: 5px;
+    }
+}
+.text-create{
+    width: 300px;
+    height:50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    padding-left: 100px;
+}
+p{
+    width: auto;
+    float: left;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.textCreate {
+    color: #C9C9C9;
+
+}
+a {
+    color: white;
+    text-decoration: none;
 }
