@@ -3,7 +3,7 @@
   height: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 10px;
   position: relative; }
 
 .Btn-login {
@@ -173,14 +173,17 @@ label {
     height: 25px;
     background-color: white;
     float: left;
-    border: 3px solid #969292; }
+    border: 3px solid #969292;
+    transition: 0.8s; }
   .group-checkbox .checked {
     background-color: #0084ff;
-    border: 3px solid #0084ff; }
+    border: 3px solid #0084ff;
+    transition: 0.8s; }
   .group-checkbox .text-checkbox {
     margin-left: 10px;
     float: left;
-    margin-top: 5px; }
+    margin-top: 5px;
+    color: white; }
 
 .text-create {
   width: 300px;

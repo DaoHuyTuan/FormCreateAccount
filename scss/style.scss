@@ -115,16 +115,19 @@ label{
         background-color: white;
         float: left;
         border: 3px solid #969292;
+        transition: 0.8s;
     }
     .checked {
         background-color:#0084ff; 
         border: 3px solid #0084ff;
+        transition: 0.8s;
     }
    
     .text-checkbox {
         margin-left: 10px;
         float: left;
         margin-top: 5px;
+        color: white;
     }
 }
 .text-create{

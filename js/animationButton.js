@@ -3,6 +3,7 @@ $(".Btn-login").click(function (){
     $(".Btn-login").removeClass("Btn-login");
     $(".group-input").hide();
     $(".text-create").hide();
+    $(".group-checkbox").hide();
     $(".loader").text("");
     $(".h-tile").text("");
     setInterval(function (){
