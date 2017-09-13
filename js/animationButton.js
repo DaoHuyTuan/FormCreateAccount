@@ -3,9 +3,11 @@ $(".Btn-login").click(function (){
     $(".Btn-login").removeClass("Btn-login");
     $(".loader").text("");
     setInterval(function (){
-        $(".loader").addClass("Btn-login");
+        $(".loader").addClass("success");
         $(".loader").removeClass("loader");  
-        $(".Btn-login").html('<i class="ion-checkmark-round"></i>');
+        $(".success").html('<i class="ion-checkmark-round"></i>');
+        $(".group-input").hide();
+        $(".h-tile").text("Login Successfull!!")
     },2000);
     
 });

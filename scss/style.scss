@@ -1,12 +1,12 @@
 @import 'button.scss';
 body{
-    background-image: url("../img/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-image: url("../img/background.jpg");
+    // background-repeat: no-repeat;
+    // background-size: cover;
 
-    // background: #348F50;  /* fallback for old browsers */
-    // background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
-    // background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #348F50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
 .main {
@@ -14,7 +14,7 @@ body{
     height: 400px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 75px;
     
 }
 .form{
@@ -27,6 +27,7 @@ body{
     width: 100%;
     height: 100%;
     display: block;
+
     
    
 }
@@ -37,20 +38,18 @@ body{
 
 }
 .group{
-    width: 300px;
-    height:300px;
-    margin-top: 50px;
-    margin-left: 50px;;
+    width: 400px;
+    height:400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    display: inline-block;
-    background: rgba(255,255,255,0.2);
-    border-radius:20%; 
+    display: block;
+
+
     
 }
-.group:hover{
-    transition: 0.8s;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-}
+
 .group-input{
     position: relative;
 
@@ -61,8 +60,8 @@ input::placeholder {
 .txt-user {
     margin-top: 20px;
     border-radius: 6px;
-    width: 200px;
-    height:40px;
+    width: 300px;
+    height:50px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
@@ -72,12 +71,13 @@ input::placeholder {
     font-size: 18px;
     color: #6BD18A;
     
+    
 }
 .txt-pass {
     margin-top: 20px;
     border-radius: 6px;
-    width: 200px;
-    height:40px;
+    width: 300px;
+    height:50px;
     
     padding-left: 10px;
     outline: none;
@@ -89,8 +89,8 @@ input::placeholder {
     color: #6BD18A;
 }
 .h-tile{
-    font-size: 24px;
-    width:200px;
+    font-size: 30px;
+    width:300px;
     height:24px;
     display: block;
     margin-top: 40px;
@@ -98,7 +98,9 @@ input::placeholder {
     
 }
 .CB-savepass{
-    margin-left: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 4px;
     float: left;
 
@@ -108,6 +110,9 @@ label{
     font-size: 12px;
 }
 .group-checkbox{
-    display: inline-block;
+    width: 400px;
+    height:50px;
+    
+    display: block;
     margin-top: 5px;
 }
