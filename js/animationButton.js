@@ -11,6 +11,11 @@ $(".Btn-login").click(function (){
         $(".loader").removeClass("loader");  
         $(".success").html('<i class="ion-checkmark-round"></i>'); 
         $(".h-tile").text("Login Successfull!!");
+        setInterval(function(){
+            $(".login").hide();
+            $(".createAccount").show();
+        },2000);
     },2000);
+    
     
 });

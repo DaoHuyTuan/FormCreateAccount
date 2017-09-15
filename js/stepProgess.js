@@ -1,0 +1,3 @@
+$(".stepItem:first").addClass("active");
+
+

@@ -77,6 +77,28 @@
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+.stepProgess {
+  width: 400px;
+  height: 100px; }
+
+.stepItem {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  float: left;
+  margin-left: 62.5px;
+  margin-top: 25px;
+  position: relative; }
+  .stepItem::after {
+    content: '';
+    margin-top: 25px;
+    position: absolute;
+    width: 115px;
+    height: 4px;
+    background-color: yellow;
+    display: block;
+    z-index: -1; }
+
 body {
   background: #348F50;
   /* fallback for old browsers */
@@ -99,12 +121,12 @@ body {
 .login {
   width: 100%;
   height: 100%;
-  display: block; }
+  display: none; }
 
 .createAccount {
   width: 100%;
   height: 100%;
-  display: none; }
+  display: block; }
 
 .group {
   width: 400px;

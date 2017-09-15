@@ -1,4 +1,5 @@
 @import 'button.scss';
+@import 'stepProgess.scss';
 body{
     // background-image: url("../img/background.jpg");
     // background-repeat: no-repeat;
@@ -26,7 +27,7 @@ body{
 .login {
     width: 100%;
     height: 100%;
-    display: block;
+    display: none;
 
     
    
@@ -34,7 +35,7 @@ body{
 .createAccount{
     width: 100%;
     height: 100%;
-    display: none;
+    display: block;
 
 }
 .group{
