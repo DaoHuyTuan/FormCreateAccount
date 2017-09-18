@@ -16,11 +16,19 @@
     position: absolute;
     width: 115px;
     height: 4px;
-    background-color: yellow;
+    background-color: white;
     display: block;
     z-index: -1; }
 
-.stepItem.active, .stepItem.active::after {
+.stepItem.active:first-child {
+  background-color: red;
+  transition: none; }
+
+.stepItem.active {
+  background-color: red;
+  transition: background 2s ease-out; }
+
+.stepItem.active::after {
   background-color: red;
   transition: 2s; }
 
