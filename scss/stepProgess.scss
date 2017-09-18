@@ -10,8 +10,6 @@
     margin-left:62.5px;
     margin-top: 25px;
     position: relative;
-    
-   
     &::after{
         content: '';
         margin-top: 25px;
@@ -22,5 +20,11 @@
         display: block;
         z-index: -1;
     }
+  
+    
    
+}
+.stepItem.active ,.stepItem.active::after{
+    background-color: red;
+    transition: 2s;
 }

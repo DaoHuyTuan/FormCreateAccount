@@ -1,0 +1,27 @@
+.stepProgess {
+  width: 400px;
+  height: 100px; }
+
+.stepItem {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  float: left;
+  margin-left: 62.5px;
+  margin-top: 25px;
+  position: relative; }
+  .stepItem::after {
+    content: '';
+    margin-top: 25px;
+    position: absolute;
+    width: 115px;
+    height: 4px;
+    background-color: yellow;
+    display: block;
+    z-index: -1; }
+
+.stepItem.active, .stepItem.active::after {
+  background-color: red;
+  transition: 2s; }
+
+/*# sourceMappingURL=stepProgess.css.map */

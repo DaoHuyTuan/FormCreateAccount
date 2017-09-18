@@ -99,6 +99,10 @@
     display: block;
     z-index: -1; }
 
+.stepItem.active, .stepItem.active::after {
+  background-color: red;
+  transition: 2s; }
+
 body {
   background: #348F50;
   /* fallback for old browsers */
