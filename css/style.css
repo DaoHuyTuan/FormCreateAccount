@@ -127,7 +127,12 @@
 
 fieldset {
   width: 100%;
-  position: relative; }
+  height: 400px;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: white;
+  color: #71DAC8; }
 
 fieldset:not(:first-of-type) {
   display: none; }
@@ -147,12 +152,13 @@ fieldset:not(:first-of-type) {
   transition: none !important; }
 
 body {
-  background: #348F50;
+  background: #43C6AC;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #56B4D3, #348F50);
+  background: -webkit-linear-gradient(to bottom, #F8FFAE, #43C6AC);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #56B4D3, #348F50);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background: linear-gradient(to bottom, #F8FFAE, #43C6AC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 700px; }
 
 .main {
   width: 400px;
@@ -202,19 +208,20 @@ input::placeholder {
   outline: none;
   border: none;
   font-size: 18px;
-  color: #6BD18A; }
+  color: #6BD18A;
+  border: 2px solid #BEBEBE; }
 
 .txt-pass {
   margin-top: 20px;
   border-radius: 6px;
   width: 300px;
   height: 50px;
+  border: 2px solid #BEBEBE;
   padding-left: 10px;
   outline: none;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border: none;
   font-size: 18px;
   color: #6BD18A; }
 
@@ -224,7 +231,7 @@ input::placeholder {
   height: 24px;
   display: block;
   margin-top: 40px;
-  color: white; }
+  color: #BEBEBE; }
 
 label {
   padding-top: 0px;
