@@ -1,5 +1,9 @@
 @import 'button.scss';
 @import 'stepProgess.scss';
+.preload * {
+    transition: none !important;
+
+  }
 body{
     // background-image: url("../img/background.jpg");
     // background-repeat: no-repeat;
@@ -46,9 +50,6 @@ body{
     margin-right: auto;
     position: relative;
     display: block;
-
-
-    
 }
 
 .group-input{
