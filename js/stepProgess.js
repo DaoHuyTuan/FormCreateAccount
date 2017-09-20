@@ -5,7 +5,6 @@ $(".next").click(function()  {
     next_fs = $(this).parent().next();
     current_fs.hide();
     next_fs.show();
-    $("")
 
     //stepProgess change
  

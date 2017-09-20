@@ -77,6 +77,28 @@
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+.next {
+  width: 100px;
+  height: 50px;
+  background-color: #24da24;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 18px; }
+
+.back {
+  width: 100px;
+  height: 50px;
+  background-color: #24da24;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bolder; }
+
 .stepProgess {
   width: 400px;
   height: 100px;
@@ -148,24 +170,25 @@ fieldset:not(:first-of-type) {
 .stepItem:last-child::after {
   content: none; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%;
+  background: linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6)); }
+
 .preload * {
   transition: none !important; }
-
-body {
-  background: #43C6AC;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #F8FFAE, #43C6AC);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #F8FFAE, #43C6AC);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 700px; }
 
 .main {
   width: 400px;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 75px; }
+  margin-top: 75px;
+  text-align: center;
+  position: relative; }
 
 .form {
   width: 100%;
